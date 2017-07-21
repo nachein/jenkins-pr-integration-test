@@ -1,0 +1,25 @@
+{
+  "name": "jenkins-integration-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nachein/jenkins-pr-integration-test.git"
+  },
+  "author": "Juan Ignacio Casal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachein/jenkins-pr-integration-test/issues"
+  },
+  "homepage": "https://github.com/nachein/jenkins-pr-integration-test#readme",
+  "dependencies": {
+    "chai": "^4.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
